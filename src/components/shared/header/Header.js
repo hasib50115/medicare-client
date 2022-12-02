@@ -159,7 +159,7 @@ const Header = () => {
               </Link>
               <Link
                 style={{ textDecoration: 'none', color: '#ffffff' }}
-                to="/services"
+                to="/allService"
               >
                 Services
               </Link>

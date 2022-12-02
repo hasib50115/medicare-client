@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 
 const Service = (props) => {
-  const { id, title, desc1, desc2, img } = props.service;
+  const { id, title, desc1, img } = props.service;
   let trimmedString = desc1.substr(0, 150);
   trimmedString = trimmedString.substr(
     0,

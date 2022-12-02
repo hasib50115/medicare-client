@@ -5,6 +5,7 @@ import HomePage from './components/home/homePage/HomePage';
 import SingleProject from './components/home/servicePages/SingleProject';
 import ServiceDetails from './components/home/services/serviceDetails/ServiceDetails';
 import DataProvider from './contexts/dataProvider/DataProvider';
+import AllService from './components/pages/allService/AllService';
 
 function App() {
   const posts = [
@@ -25,7 +26,9 @@ function App() {
             <Route path={'/services/:serviceId'}>
               <ServiceDetails />
             </Route>
-            <Route path=""></Route>
+            <Route path="/allService">
+              <AllService />
+            </Route>
           </Switch>
         </Router>
       </DataProvider>
