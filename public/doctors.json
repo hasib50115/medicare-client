@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Dr Sopiha",
+    "designation": "Opthalmologist",
+    "img": "https://i.ibb.co/Hpc8rLF/doctor-1-removebg-preview.png"
+  },
+
+  {
+    "id": 2,
+    "name": "Dr Steven Paul",
+    "designation": "Dentist",
+    "img": "https://i.ibb.co/k01vZQw/doctor-2-removebg-preview.png"
+  },
+  {
+    "id": 3,
+    "name": "Dr Jennifer William",
+    "designation": "Neurologist",
+    "img": "https://i.ibb.co/PtfYWgB/doctor-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Dr Richard",
+    "designation": "Cardiologist",
+    "img": "https://i.ibb.co/YcrtDPz/doctor-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Dr Sopiha",
+    "designation": "Dentist",
+    "img": "https://i.ibb.co/Ntx5gFV/doctor-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Dr Sopiha",
+    "designation": "Dentist",
+    "img": "https://i.ibb.co/6wFT4w6/doctor-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Dr Sopiha",
+    "designation": "Dentist",
+    "img": "https://i.ibb.co/FD8Vmvs/doctor-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Dr Sopiha",
+    "designation": "Dentist",
+    "img": "https://i.ibb.co/wBstBVH/doctor-8.png"
+  }
+]

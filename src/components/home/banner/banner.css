@@ -1,0 +1,98 @@
+.carouselCaption {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 600px;
+  text-align: left;
+}
+.bannerTitle {
+  font-size: 70px;
+}
+.bannerTitle1 {
+  font-size: 50px;
+}
+.bButton {
+  border: none;
+  background-color: #2aa7ff;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* mediaquery -- small device  */
+@media only screen and (max-width: 480px) {
+  .carouselCaption {
+    top: 18%;
+    left: 10%;
+  }
+  .bannerTitle {
+    font-size: 20px;
+  }
+  .bannerTitle1 {
+    font-size: 15px;
+  }
+  .bButton {
+    display: none;
+  }
+}
+
+/* smartphone -- landscape mode and Tabs */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .carouselCaption {
+    top: 22%;
+    left: 10%;
+  }
+  .bannerTitle {
+    font-size: 25px;
+  }
+  .bannerTitle1 {
+    font-size: 20px;
+  }
+  .bButton {
+    padding: 5px 15px;
+  }
+}
+/* for laptop screen */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+  .carouselCaption {
+    top: 28%;
+    left: 10%;
+  }
+  .bannerTitle {
+    font-size: 45px;
+  }
+  .bannerTitle1 {
+    font-size: 30px;
+  }
+  .bButton {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: #1976d2;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+}
+/* for desktop screen */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  .carouselCaption {
+    top: 28%;
+    left: 10%;
+  }
+  .bannerTitle {
+    font-size: 70px;
+  }
+  .bannerTitle1 {
+    font-size: 50px;
+  }
+  .bButton {
+    margin-top: 20px;
+    font-size: 22px;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+}

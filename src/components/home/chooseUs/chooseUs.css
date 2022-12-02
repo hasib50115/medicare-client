@@ -1,0 +1,51 @@
+.chooseUS {
+  background-color: rgba(140, 170, 245, 0.216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+#card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+
+  padding: 10px 0 10px 5px;
+}
+.imgBox {
+  width: 100px;
+  margin-right: 5px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* mediaquery -- small device  */
+@media only screen and (max-width: 480px) {
+  .chooseUS {
+    height: auto;
+    padding: 50px 0;
+  }
+}
+
+/* smartphone -- landscape mode and Tabs */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .chooseUS {
+    height: auto;
+    padding: 50px 0;
+  }
+}
+/* for laptop screen */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+}
+/* for desktop screen */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+}
+/* for desktop screen */
+@media only screen and (min-width: 1921px) {
+}

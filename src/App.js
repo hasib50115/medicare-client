@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import HomePage from './components/home/homePage/HomePage';
+import SingleProject from './components/home/servicePages/SingleProject';
+import ServiceDetails from './components/home/services/serviceDetails/ServiceDetails';
+import DataProvider from './contexts/dataProvider/DataProvider';
 
 function App() {
+  const posts = [
+    { id: 1, title: 'First', content: 'Hello world!' },
+    { id: 2, title: 'Second', content: 'Hello again!' },
+  ];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataProvider>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <HomePage />
+            </Route>
+            <Route path="/home">
+              <HomePage />
+            </Route>
+            <Route path={'/services/:serviceId'}>
+              <ServiceDetails />
+            </Route>
+            <Route path=""></Route>
+          </Switch>
+        </Router>
+      </DataProvider>
     </div>
   );
 }

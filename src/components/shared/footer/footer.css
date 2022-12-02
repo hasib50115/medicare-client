@@ -1,0 +1,117 @@
+.footer {
+  background-image: url('https://i.ibb.co/LrnsSNp/footer-bg.jpg');
+  height: auto;
+  padding: 50px 0 20px 0;
+}
+
+.footer-top-area {
+  display: grid;
+}
+
+.footer-top-area-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+/* logo  */
+.logo-container {
+  margin: auto 0;
+}
+.logo-img {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text-desc {
+  padding: 40px 0;
+  text-align: left;
+  color: #77829d;
+  padding: auto;
+}
+
+.social-icon {
+  cursor: pointer;
+  color: #77829d;
+}
+
+.social-icon:hover {
+  color: #2aa7ff;
+}
+
+/* departments  */
+.dept-arrow {
+  color: #2aa7ff;
+}
+
+/* opening hour  */
+
+.table-date {
+  color: #2aa7ff;
+}
+
+/* get in touch  */
+.get-in-touch-item {
+  display: grid;
+  grid-template-columns: 30px auto;
+  margin-top: 30px;
+}
+
+.get-in-touch-icon {
+  color: #2aa7ff;
+}
+
+/* footer bottom area  */
+.footer-bottom-area {
+  margin-top: 30px;
+  text-align: center;
+  color: #77829d;
+}
+
+/* mediaquery -- small device  */
+@media only screen and (max-width: 480px) {
+  .logo-text-desc {
+    padding: 20px 0;
+  }
+
+  .get-in-touch-item {
+    margin-top: 15px;
+  }
+  .footer-top-area-container {
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+  }
+}
+
+/* smartphone -- landscape mode and Tabs */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .get-in-touch-item {
+    margin-top: 15px;
+  }
+
+  .footer-top-area-container {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+  }
+}
+
+/* for laptop - small screen */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+  .footer-top-area-container {
+    grid-template-columns: 0.9fr 1fr 1fr 1fr;
+  }
+}
+
+/* for laptop screen */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+  .servicesCards {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+/* for desktop screen */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  .servicesCards {
+    grid-template-columns: auto auto auto;
+  }
+}

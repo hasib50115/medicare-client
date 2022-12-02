@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "img": "https://i.ibb.co/D8R5gQb/daniela-Hall.jpg",
+    "name": "Daniella Hall",
+    "designation": "Graphics Designer",
+    "desc": "I was welcomed with friendly staff and they were very helpful. The wait was over one hour, but three days later I'm feeling much better. Thanks my doctor."
+  },
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/tJ2cZzT/martin-cross.jpg",
+    "name": "Martin Cross",
+    "designation": "Finance Manager",
+    "desc": "I received very good care, and the doctor took the time to explain the medications he was prescribing and why. I am so thankful that I found this place for me."
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/CVRzz5H/andrew-cosford.jpg",
+    "name": "Andrew Cosford",
+    "designation": "Architect",
+    "desc": "This is the best clinic I have ever been to. The clinic is very clean, the prices are very affordable, and there are so many things that they can do, it’s incredible."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/VvJNYP4/paul-smith.jpg",
+    "name": "Paul Smith",
+    "designation": "Art Director",
+    "desc": "I have found Medicare is the best place for my treatment, doctor and the staff are highly qualified and skilled, they actually know what you really need."
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/PNL5f57/amanda-kenidey.jpg",
+    "name": "Amanda Kinedy",
+    "designation": "English Professor",
+    "desc": "I appreciate your hospital really good environment and excellent patient care. You are continuously handle patient treatment wonderfully. Thanks for your great service."
+  }
+]

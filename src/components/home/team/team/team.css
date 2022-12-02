@@ -1,0 +1,48 @@
+.team-banner {
+  background-image: url('https://i.ibb.co/1rjTHzL/bg-mediko.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dContainer {
+  display: grid;
+  grid-template-columns: auto, auto, auto, auto;
+  justify-content: center;
+  grid-gap: 20px;
+  position: relative;
+  top: -20px;
+}
+
+/* mediaquery -- small device  */
+@media only screen and (max-width: 480px) {
+  .dContainer {
+    grid-template-columns: auto;
+  }
+}
+
+/* smartphone -- landscape mode and Tabs */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .dContainer {
+    grid-template-columns: auto auto;
+  }
+}
+/* for laptop screen */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+  .dContainer {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+/* for desktop screen */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  .dContainer {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+/* for desktop screen */
+@media only screen and (min-width: 1921px) {
+  .dContainer {
+    grid-template-columns: auto auto auto auto;
+  }
+}

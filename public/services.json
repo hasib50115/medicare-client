@@ -1,0 +1,59 @@
+[
+  {
+    "id": 0,
+    "img": "https://i.ibb.co/QF4kS0w/opthalmologist.png",
+    "title": "Ophthalmologist",
+    "desc1": "We are a modern ophthalmology center, where the most modern equipment as well as the knowledge, experience and competences of recognized professors and experienced specialists have joined forces to provide effective help to our patients six days a week.",
+    "desc2": "When you come to us, you can be sure that your ophthalmological problem will be dealt with by a specialist who has both active experience in the diagnosis and treatment of a given disease, as well as constantly updating his knowledge."
+  },
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/X3b33Fz/pediatrician.png",
+    "title": "Pediatrician",
+    "desc1": "The Department of Paediatrics of Medicare Hospital provides comprehensive healthcare services for children and adolescents below the age of 15. We offer a multidisciplinary approach to care, primarily provided by our expert paediatric specialists, as well as a multi-specialty team of clinicians and surgeons. Our specialists have advanced training and vast experience in virtually every sub-discipline of paediatric medicine. Our paediatric services provide family centred care that is consistent, supportive and nurturing which meets the physical, emotional and psychosocial needs of our patients. We provide state-of-the-art paediatric care in the form of open communication, emotional support and education to all of our patients as well to their families. Our goal is to maintain an environment conducive to healing that is reflective of trust, honesty and respect to our patients, their families and our staff.",
+    "desc2": "Department of Paediatrics provides consultation services through highly qualified and experienced Consultants, who carefully evaluate each patient. After diagnosing patient’s condition, they discuss available treatment options and recommend the most effective one. Our children patients are dealt very delicately and with compassion, keeping in mind the emotion and feelings of the parents and family. Our OPD waiting area has a friendly environment for children, with a built-in children’s playground where they can play."
+  },
+
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/j8WQM02/orthopedics.png",
+    "title": "Orthopedics",
+    "desc1": "Medicare Hospital, has one of the best orthopedics department in the country, serving to provide 360º care as a Bone & Joint Centre. The Department of Orthopedics has full-time Consultants, a number of specialist, and supporting paramedical staff trained to deliver a 100% success rate. Our team diagnoses, operates and treats problems affecting the bones, joints and muscles of patients encompassing all age groups.",
+    "desc2": "The Department of Orthopedics offers out-patient consultation services and procedures. It is well supported by fully equipped operation theatre (OT), intensive care units for pre- and post- operative care, as well as rehabilitation services in Physical Medicine & Rehabilitation Centre. The state-of-the-art OT is equipped with the latest fracture tables and imaging facilities including a C-arm image intensifier. The hospital is also equipped with MRI Scan (1.5 tesla), CT scan (64 slice), and X-ray for prompt screening facilities."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/dJd7VdN/destist.png",
+    "title": "Dentist",
+    "desc1": "Our dentists are a team of qualified specialists who have all the necessary qualities and skills so that the best dentist can be able to provide services at the highest level. Our educated specialists with extensive knowledge and experience counted in years and hundreds of treatments performed ",
+    "desc2": "For the sake of your healthy and beautiful smile, we offer comprehensive dental care at affordable prices. All treatments are performed using the highest class specialized equipment. For your convenience, we’ve also created the option of taking x-rays in our office including a pantomogram and dental tomography."
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/xMMN8bn/laboratory-and-diagnostice.png",
+    "title": "Laboratory and Diagnostic Care",
+    "desc1": "A Trusted Healthcare Partner Providing You With High Quality Test Services to Manage All Health Effectively! With a belief that knowledge is power, we connect our patients directly with their results so they have valuable health information when they need it most, care about our people and are committed to excellence in the work we do for people to grow and strive for excellence.",
+    "desc2": "Organic Acids is a nutrition test that requires a first morning void (FMV) urine collection to measure organic acids. The report includes personalized micronutrient recommendations for vitamin and mineral cofactors as well as digestive support recommendations based on a patient’s individual biochemical metabolism."
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/zGSKNnq/cardiology.png",
+    "title": "Cardiology",
+    "desc1": "The Cardiology Department of Medicare Hospital has gained reputation for its dynamic and innovation in the diagnosis, investigation and treatment of patients with all forms of heart diseases, both generally encountered and complex cases. We have a dedicated unit of full-time Consultants, and a team of junior doctors, nurses, and technicians trained to the highest standard in cardiac assessment. Our specialists diagnose and manage full range of heart conditions, and we are fully equipped with state-of-the-art facilities and complete range of services – from cardiac investigations to Interventional Cardiology procedures in ultramodern Catheterization Lab (Cath Lab). Cardio-pulmonary rehabilitation program is offered to patients through our Physical Medicine & Rehabilitation Centre. The hospital offers a multidisciplinary in-patient program, and also has complete Coronary Care Unit and Cardiothoracic ICU for critical cardiac patients. For emergency patients, we have 24-hour Accident & Emergency Centre and specialized team for stabilization and treatment of the patient.",
+    "desc2": "Department of Cardiology provides consultation services in level-5 (OPD) through highly qualified and experienced Consultants, who carefully evaluate each patient. After diagnosing the patient’s condition, our consultants discuss available treatment options and recommend the most effective treatment."
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/7CWnTLp/Nutrition-and-dietetics.png",
+    "title": "Nutrition and Dietetics",
+    "desc1": "Nutrition & Dietetics aims to advance the science of human nutrition and the professional practice of nutrition and dietetics. It welcomes original research and systematic reviews across the diversity of dietetic practice, including medical nutrition therapy, community and public health nutrition, food and nutrition service management, dietetic education as well as new and emerging areas of practice.",
+    "desc2": "Use of the Nutrition Care Process does not mean that all patients get the same care. Rather, the Nutrition Care Process provides a framework for practitioners to customize care — taking into account the client's needs and values and using the best evidence available to make decisions. Use of the Nutrition Care Process can lead to more efficient and effective care, nutrition research and greater recognition of the role of credentialed nutrition and dietetics practitioners in all settings."
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/7R2yYD4/neurology.png",
+    "title": "Neurology",
+    "desc1": "Department of Neurology of Medicare Hospital provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Medicare Hospital is the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof.",
+    "desc2": "The Neurology Department has experienced American Board-Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre."
+  }
+]

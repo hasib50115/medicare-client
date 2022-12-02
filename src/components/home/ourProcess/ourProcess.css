@@ -1,0 +1,82 @@
+.our-process-area {
+  background-image: url('https://i.ibb.co/tQMLKqN/Group-6698.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 80px;
+}
+
+.title-small {
+  color: #2aa7ff;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0 70px;
+}
+
+.our-process-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-process-card-img-area {
+  max-width: 250px;
+  position: relative;
+}
+
+.our-process-card-img-container {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-process-card-number-container {
+  position: absolute;
+  left: 85%;
+  transform: translateX(-50%);
+  top: -3px;
+}
+
+.our-process-card-number-bg {
+  margin: 0 auto;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-process-card-number {
+  color: #ffffff;
+  background-color: #ff684c;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.op-card-num-02 {
+  background-color: #ffb200;
+}
+.op-card-num-03 {
+  background-color: #2aa7ff;
+}
+.op-card-num-04 {
+  background-color: #4cd080;
+}
+
+.our-process-card-text {
+  text-align: center;
+}
