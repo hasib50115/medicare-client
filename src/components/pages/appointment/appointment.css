@@ -1,0 +1,75 @@
+.appointment-container {
+  margin: 80px auto;
+}
+
+#appointment-form-container {
+  background-color: #09a3f018;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointment-form-title {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.calender-container {
+  width: 90%;
+}
+
+.appointment-banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointment-banner-img {
+  object-fit: contain;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* mediaquery -- small device  */
+@media only screen and (max-width: 480px) {
+  .appointment-section {
+    background-color: #d3eefdd4;
+  }
+
+  .appointment-container {
+    margin: 0;
+  }
+  #appointment-form-container {
+    padding-bottom: 30px;
+  }
+}
+
+/* smartphone -- landscape mode and Tabs */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .appointment-section {
+    background-color: #d3eefdd4;
+  }
+
+  #appointment-form-container {
+    padding-bottom: 40px;
+  }
+}
+/* for laptop screen */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+  #appointment-form-container {
+    padding-bottom: 20px;
+  }
+}
+/* for desktop screen */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  .servicesCards {
+    grid-template-columns: auto auto auto;
+  }
+}

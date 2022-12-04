@@ -13,7 +13,9 @@ const AppointmentModal = () => {
             Book Appointment
           </Typography>
 
-          <Calendar />
+          <Box style={{ width: '90%' }}>
+            <Calendar />
+          </Box>
           <SelectTime />
           <SelectDepartments />
           <TextField

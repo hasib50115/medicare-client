@@ -6,6 +6,7 @@ import SingleProject from './components/home/servicePages/SingleProject';
 import ServiceDetails from './components/home/services/serviceDetails/ServiceDetails';
 import DataProvider from './contexts/dataProvider/DataProvider';
 import AllService from './components/pages/allService/AllService';
+import Appointment from './components/pages/appointment/Appointment';
 
 function App() {
   const posts = [
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/allService">
               <AllService />
+            </Route>
+            <Route path="/appointment">
+              <Appointment />
             </Route>
           </Switch>
         </Router>

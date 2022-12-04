@@ -22,14 +22,14 @@ const SelectDepartments = () => {
           Select Department
         </MenuItem>
         <MenuItem value={1}>General</MenuItem>
-        <MenuItem value={1}>Opthalmologist</MenuItem>
-        <MenuItem value={2}>Pediatrician</MenuItem>
-        <MenuItem value={3}>Orthopedics</MenuItem>
-        <MenuItem value={4}>Dentist</MenuItem>
-        <MenuItem value={5}>Laboratory and Diagnostic Care</MenuItem>
-        <MenuItem value={6}>Cardiology</MenuItem>
-        <MenuItem value={7}>Nutrition and Dietetics</MenuItem>
-        <MenuItem value={8}>Neurology</MenuItem>
+        <MenuItem value={2}>Opthalmologist</MenuItem>
+        <MenuItem value={3}>Pediatrician</MenuItem>
+        <MenuItem value={4}>Orthopedics</MenuItem>
+        <MenuItem value={5}>Dentist</MenuItem>
+        <MenuItem value={6}>Laboratory and Diagnostic Care</MenuItem>
+        <MenuItem value={7}>Cardiology</MenuItem>
+        <MenuItem value={8}>Nutrition and Dietetics</MenuItem>
+        <MenuItem value={9}>Neurology</MenuItem>
       </Select>
     </FormControl>
   );

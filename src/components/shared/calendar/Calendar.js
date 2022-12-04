@@ -19,7 +19,7 @@ const Calendar = () => {
             setValue(newValue);
           }}
           renderInput={(params) => (
-            <TextField {...params} style={{ width: '90%' }} />
+            <TextField {...params} style={{ width: '100%' }} />
           )}
         />
       </LocalizationProvider>

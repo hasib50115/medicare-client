@@ -109,14 +109,7 @@ const Header = () => {
                   Services
                 </Link>
               </MenuItem>
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Link
-                  style={{ textDecoration: 'none', color: '#333333' }}
-                  to="/"
-                >
-                  About
-                </Link>
-              </MenuItem>
+
               <MenuItem onClick={handleCloseNavMenu}>
                 <Link
                   style={{ textDecoration: 'none', color: '#333333' }}
@@ -162,12 +155,6 @@ const Header = () => {
                 to="/allService"
               >
                 Services
-              </Link>
-              <Link
-                style={{ textDecoration: 'none', color: '#ffffff' }}
-                to="/about"
-              >
-                About
               </Link>
               <Link
                 style={{ textDecoration: 'none', color: '#ffffff' }}
